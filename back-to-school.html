@@ -144,12 +144,12 @@
         font-size: 22px;
         letter-spacing: 0.03em;
       }
-      .brand .ball {
-        width: 26px;
-        height: 26px;
+      .brand .logo {
+        width: 44px;
+        height: 44px;
         border-radius: 50%;
-        background: radial-gradient(circle at 35% 30%, #ff7a4d, var(--red));
-        position: relative;
+        border: 2px solid var(--red);
+        object-fit: cover;
         flex: none;
       }
       .brand small {
@@ -636,7 +636,7 @@
     <div class="topbar">
       <div class="topbar-inner">
         <div class="brand">
-          <span class="ball"></span>
+          <img class="logo" src="/imgs/logo.png" alt="RBCN Logo" />
           <div>
             BASKETBALL NEXUS
             <small>Rustbelt Coaches' Network</small>
